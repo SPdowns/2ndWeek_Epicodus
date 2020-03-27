@@ -16,6 +16,13 @@ $(document).ready(function() {
     $("#respone5").hide();
     }
     else if ( xp === "beginner") {
+    $("#respone1").show();
+    $("#respone2").hide();
+    $("#respone3").hide();
+    $("#respone4").hide();
+    $("#respone5").hide();
+    }
+    else if (xp === "lots" && uiorux === "back" && os === "linux" && music === "classical" && drink === "coffee") {
     $("#respone1").hide();
     $("#respone2").hide();
     $("#respone3").hide();

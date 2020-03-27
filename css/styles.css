@@ -3,6 +3,12 @@ body {
   background-size: 1920px 1080px;
   overflow: scroll;
 }
+.side {
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+text-shadow: 2px 2px 5px whitesmoke;
+background-color: teal;
+}
 
 .small {
   width: 200px;
