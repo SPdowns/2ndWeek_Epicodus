@@ -13,54 +13,70 @@ $(document).ready(function() {
     $("#respone2").hide();
     $("#respone3").hide();
     $("#respone4").show();
+    $("#respone5").hide();
     }
     else if ( xp === "beginner") {
     $("#respone1").show();
     $("#respone2").hide();
     $("#respone3").hide();
     $("#respone4").hide();
+    $("#respone5").hide();
     }
     else if (xp === "some" && uiorux === "front" && os === "windows") {
     $("#respone1").hide();
     $("#respone2").hide();
     $("#respone3").show();
     $("#respone4").hide();
+    $("#respone5").hide();
     }
-    else if (xp === "some" && uiorux === "lots" && os === "windows") {
+    else if (xp === "some" && uiorux === "back" && os === "windows") {
     $("#respone1").hide();
     $("#respone2").hide();
     $("#respone3").show();
     $("#respone4").hide();
+    $("#respone5").hide();
+    }
+    else if (xp === "lots" && uiorux === "front" && os === "windows") {
+    $("#respone1").hide();
+    $("#respone2").hide();
+    $("#respone3").show();
+    $("#respone4").hide();
+    $("#respone5").hide();
     }
     else if (xp === "some" && uiorux === "front") {
     $("#respone1").hide();
     $("#respone2").show();
     $("#respone3").hide();
     $("#respone4").hide();
+    $("#respone5").hide();
     }
     else if (xp === "lots" && uiorux === "front") {
     $("#respone1").hide();
     $("#respone2").show();
     $("#respone3").hide();
     $("#respone4").hide();
+    $("#respone5").hide();
     }
     else if (xp === "some" && uiorux === "back") {
     $("#respone1").hide();
     $("#respone2").hide();
     $("#respone3").show();
     $("#respone4").hide();
+    $("#respone5").hide();
     }
     else if (xp === "lots" && uiorux === "back") {
     $("#respone1").hide();
     $("#respone2").hide();
     $("#respone3").show();
     $("#respone4").hide();
+    $("#respone5").hide();
     }
     else if (xp === "lots" && uiorux === "front") {
     $("#respone1").hide();
     $("#respone2").show();
     $("#respone3").hide();
     $("#respone4").hide();
+    $("#respone5").hide();
     }
   });
 });
