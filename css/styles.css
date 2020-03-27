@@ -3,6 +3,11 @@ body {
   background-size: 1920px 1080px;
   overflow: scroll;
 }
+
+img {
+  border-style: solid;
+  border-radius: 10px;
+}
 .side {
 font-family: Georgia, 'Times New Roman', Times, serif;
 text-align: center;
