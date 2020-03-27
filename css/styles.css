@@ -9,7 +9,7 @@ img {
 }
 .btn {
   display: inline-block
-  
+
 }
 
 .side {
@@ -22,6 +22,10 @@ border-radius: 5px;
 
 .small {
   width: 200px;
+}
+
+#links {
+  
 }
 
 .medium {
