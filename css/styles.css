@@ -12,29 +12,9 @@ img {
   display: inline-block
 }
 
-/* .btn2 {
-  float: left;
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 24px;
-  cursor: wait;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: rgb(90, 27, 209);
-  border-radius: 15px;
-  box-shadow: 0 9px rgb(84, 75, 163);
+.btn2 {
+  padding: 10px;
 }
-
-.btn2:hover {
-  background-color: rgb(140, 79, 255);
-}
-.btn2:active {
-  background-color: rgb(140, 79, 255);
-  box-shadow: 0 5px rgb(84, 75, 163);
-  transform: translateY(10px); 
-}*/
 
 .side {
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -50,7 +30,6 @@ border-radius: 5px;
 
 #links {
   display: none;
-  float: inline-start;
   text-align: center;
   background-color: blanchedalmond;
   border-radius: 10px;
