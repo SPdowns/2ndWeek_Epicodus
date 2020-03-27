@@ -12,6 +12,31 @@ img {
 
 }
 
+.btn2 {
+  float: right;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: wait;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(90, 27, 209);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(84, 75, 163);
+}
+
+.btn2:hover {
+  background-color: rgb(140, 79, 255);
+}
+.btn2:active {
+  background-color: rgb(140, 79, 255);
+  box-shadow: 0 5px rgb(84, 75, 163);
+  transform: translateY(4px);
+}
+
 .side {
 font-family: Georgia, 'Times New Roman', Times, serif;
 text-align: center;
@@ -25,6 +50,7 @@ border-radius: 5px;
 }
 
 #links {
+  display: none;
   background-color: blanchedalmond;
 }
 
@@ -107,4 +133,7 @@ border-radius: 5px;
 .box2 {
   background-color: blanchedalmond;
   text-align: center;
+}
+.signiture {
+  float: right;
 }
