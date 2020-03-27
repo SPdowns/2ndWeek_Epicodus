@@ -96,4 +96,7 @@ $(document).ready(function() {
     $("#respone6").hide();
     }
   });
+  $("#btn2").click(function() {
+    $("#links").show();
+  });
 });

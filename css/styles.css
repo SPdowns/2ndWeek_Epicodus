@@ -9,11 +9,10 @@ img {
 }
 .btn {
   display: inline-block
-
 }
 
-.btn2 {
-  float: right;
+/* .btn2 {
+  float: left;
   display: inline-block;
   padding: 15px 25px;
   font-size: 24px;
@@ -23,7 +22,6 @@ img {
   outline: none;
   color: #fff;
   background-color: rgb(90, 27, 209);
-  border: none;
   border-radius: 15px;
   box-shadow: 0 9px rgb(84, 75, 163);
 }
@@ -34,8 +32,8 @@ img {
 .btn2:active {
   background-color: rgb(140, 79, 255);
   box-shadow: 0 5px rgb(84, 75, 163);
-  transform: translateY(4px);
-}
+  transform: translateY(10px); 
+}*/
 
 .side {
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -51,6 +49,7 @@ border-radius: 5px;
 
 #links {
   display: none;
+  float: left;
   background-color: blanchedalmond;
 }
 
@@ -64,6 +63,7 @@ border-radius: 5px;
 
 .jumbotron {
   text-align: center;
+  text-shadow: 2px 2px 20px whitesmoke;
   background-image: linear-gradient(to right top, #d1c700, #f09210, #f55941, #dc276a, #a4218a, #8b248c, #71278b, #542989, #6e1d7c, #810f6d, #8d025d, #95014d);
 }
 
