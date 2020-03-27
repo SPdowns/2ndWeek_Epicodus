@@ -5,9 +5,13 @@ body {
 }
 
 img {
-  border-style: solid;
   border-radius: 10px;
 }
+.btn {
+  display: inline-block
+  
+}
+
 .side {
 font-family: Georgia, 'Times New Roman', Times, serif;
 text-align: center;
@@ -68,11 +72,27 @@ border-radius: 5px;
   border-radius: 10px;
 }
 
+#respone6 {
+  display: none;
+  text-align: center;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+}
+
 .notqs {
   background-color: blanchedalmond;
   text-align: center;
-  font-size: 22px;
+  float: right;
   border-radius: 10px;
+  width: fit-content;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 22px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: 800;
+  font-style: normal;
+  font-variant: small-caps;
 }
 
 .qs {
