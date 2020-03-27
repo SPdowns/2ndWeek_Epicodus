@@ -21,6 +21,8 @@ _Choose Your Code Adventure is asking a few simple questions to determine what p
 
 Chrome ver 10
 
+Access via git-pages : https://spdowns.github.io/2ndWeek_Epicodus/
+
 ## Known Bugs
 
   
