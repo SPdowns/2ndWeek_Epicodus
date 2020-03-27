@@ -8,30 +8,59 @@ $(document).ready(function() {
     var drink = $("input:radio[name=drink]:checked").val();
     var music = $("input:radio[name=music]:checked").val();
 
-    if ( xp === "beginner") {
+    if ( drink === "weird") {
+    $("#respone1").hide();
+    $("#respone2").hide();
+    $("#respone3").hide();
+    $("#respone4").show();
+    }
+    else if ( xp === "beginner") {
     $("#respone1").show();
     $("#respone2").hide();
     $("#respone3").hide();
+    $("#respone4").hide();
+    }
+    else if (xp === "some" && uiorux === "front" && os === "windows") {
+    $("#respone1").hide();
+    $("#respone2").hide();
+    $("#respone3").show();
+    $("#respone4").hide();
+    }
+    else if (xp === "some" && uiorux === "lots" && os === "windows") {
+    $("#respone1").hide();
+    $("#respone2").hide();
+    $("#respone3").show();
+    $("#respone4").hide();
     }
     else if (xp === "some" && uiorux === "front") {
     $("#respone1").hide();
     $("#respone2").show();
     $("#respone3").hide();
+    $("#respone4").hide();
     }
     else if (xp === "lots" && uiorux === "front") {
     $("#respone1").hide();
     $("#respone2").show();
     $("#respone3").hide();
+    $("#respone4").hide();
     }
     else if (xp === "some" && uiorux === "back") {
     $("#respone1").hide();
     $("#respone2").hide();
     $("#respone3").show();
+    $("#respone4").hide();
     }
     else if (xp === "lots" && uiorux === "back") {
     $("#respone1").hide();
     $("#respone2").hide();
     $("#respone3").show();
+    $("#respone4").hide();
+    }
+    else if (xp === "lots" && uiorux === "front") {
+    $("#respone1").hide();
+    $("#respone2").show();
+    $("#respone3").hide();
+    $("#respone4").hide();
     }
   });
 });

@@ -3,8 +3,12 @@ body {
   background-size: cover;
 }
 
-img {
+.small {
   width: 200px;
+}
+
+.medium {
+  width: 800px;
 }
 
 .jumbotron {
@@ -29,6 +33,13 @@ img {
   text-align: center;
   background-color: blanchedalmond;
 }
+
+#respone4 {
+  display: none;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
 .box {
   background-color: blanchedalmond;
 }
