@@ -11,7 +11,12 @@ $(document).ready(function() {
 
     var typeOfLanguage;
 
-    if(xp === "beginner")
+    if ( xp === "beginner") {
+      answer = "Javascript"
+    } else if (xp === "some" || xp === "lots") {
+    answer = "Ruby"
+    }
+
     $("#typeOfLanguage").text(answer)
   });
 });
