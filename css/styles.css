@@ -12,6 +12,10 @@ body {
   width: 800px;
 }
 
+.mcimg {
+  width: 400px;
+}
+
 .jumbotron {
   text-align: center;
   background-image: linear-gradient(to right top, #d1c700, #f09210, #f55941, #dc276a, #a4218a, #8b248c, #71278b, #542989, #6e1d7c, #810f6d, #8d025d, #95014d);
@@ -36,6 +40,12 @@ body {
 }
 
 #respone4 {
+  display: none;
+  text-align: center;
+  background-color: blanchedalmond;
+}
+
+#respone5 {
   display: none;
   text-align: center;
   background-color: blanchedalmond;
