@@ -1,6 +1,7 @@
 body {
   background-image: url(../img/AdobeStock_317396428.jpeg);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .small {
