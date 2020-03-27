@@ -5,7 +5,8 @@ body {
 }
 
 img {
-  border-radius: 10px;
+  border-radius: 15px;
+  padding-bottom: 10px;
 }
 .btn {
   display: inline-block
@@ -49,8 +50,10 @@ border-radius: 5px;
 
 #links {
   display: none;
-  float: left;
+  float: inline-start;
+  text-align: center;
   background-color: blanchedalmond;
+  border-radius: 10px;
 }
 
 .medium {
