@@ -62,7 +62,13 @@ background-color: teal;
   background-color: blanchedalmond;
 }
 
-.box {
+.notqs {
+  background-color: blanchedalmond;
+  text-align: center;
+  font-size: 22px;
+}
+
+.qs {
   background-color: blanchedalmond;
 }
 
