@@ -8,3 +8,6 @@ body {
   background-image: linear-gradient(to right top, #d1c700, #f09210, #f55941, #dc276a, #a4218a, #8b248c, #71278b, #542989, #6e1d7c, #810f6d, #8d025d, #95014d);
 }
 
+.box {
+  background-color: blanchedalmond;
+}
