@@ -6,4 +6,5 @@ $(document).ready(function() {
     var os = ($("input#os").val());
     var drink = ($("input#drink").val());
     var music = ($("input#music").val());
+    console.log(userInput)
 }
