@@ -13,6 +13,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 text-align: center;
 text-shadow: 2px 2px 5px whitesmoke;
 background-color: teal;
+border-radius: 5px;
 }
 
 .small {
@@ -36,40 +37,47 @@ background-color: teal;
   display: none;
   text-align: center;
   background-color: blanchedalmond;
+  border-radius: 10px;
 }
 
 #respone2 {
   display: none;
   text-align: center;
   background-color: blanchedalmond;
+  border-radius: 10px;
 }
 
 #respone3 {
   display: none;
   text-align: center;
   background-color: blanchedalmond;
+  border-radius: 10px;
 }
 
 #respone4 {
   display: none;
   text-align: center;
   background-color: blanchedalmond;
+  border-radius: 10px;
 }
 
 #respone5 {
   display: none;
   text-align: center;
   background-color: blanchedalmond;
+  border-radius: 10px;
 }
 
 .notqs {
   background-color: blanchedalmond;
   text-align: center;
   font-size: 22px;
+  border-radius: 10px;
 }
 
 .qs {
   background-color: blanchedalmond;
+  border-radius: 10px;
 }
 
 .box2 {
