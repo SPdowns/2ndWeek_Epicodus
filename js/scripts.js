@@ -1,4 +1,7 @@
 $(document).ready(function() {
+  $(".btn2").click(function() {
+    $("#links").fadeToggle();
+  });
   $("form#language").submit(function(event) {
     event.preventDefault();
     var xp = $("input:radio[name=xp]:checked").val();
@@ -95,8 +98,5 @@ $(document).ready(function() {
     $("#respone5").hide();
     $("#respone6").hide();
     }
-  });
-  $("#btn2").click(function() {
-    $("#links").show();
   });
 });
